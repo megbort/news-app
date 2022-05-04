@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "megankrenbrink-assign1",
+    "slug": "megankrenbrink-assign1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/News-App-Splash-And.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#2B2D42"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/News-App-Splash-iOS.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#2B2D42"
+      }
+    },
+    "android": {
+      "icon": "./assets/icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/News-App-Splash.png",
+        "backgroundColor": "#2B2D42"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
